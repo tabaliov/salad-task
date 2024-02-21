@@ -93,7 +93,9 @@ export default function Meal({ type }) {
       <div className="total">
         <h1>Total: ${total}</h1>
       </div>
-      <Link to={"/checkout"} state={{order, total}}><button>Proceed to Checkout</button></Link>
+      {total > 0 &&
+        <Link to={"/checkout"} state={{order, total}}><button>Proceed to Checkout</button></Link>
+      }
     </>
   );
 };
