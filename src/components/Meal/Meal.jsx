@@ -53,7 +53,7 @@ export default function Meal({ type }) {
   return (
     <>
       <div className="meal">
-        <div>
+        <div className="order">
           <h3>order</h3>
           <ul>
             {order.map((ingredient, index) => (
@@ -66,7 +66,7 @@ export default function Meal({ type }) {
             ))}
           </ul>
         </div>
-        <div>
+        <div className="order">
           <h3>Order</h3>
           <ul>
             {order.map((ingredient, index) => (
@@ -86,6 +86,7 @@ export default function Meal({ type }) {
               )
             ))}
           </ul>
+
         </div>
       </div>
 
