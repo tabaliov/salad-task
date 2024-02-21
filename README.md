@@ -1,0 +1,2 @@
+# salad-task
+npm install
