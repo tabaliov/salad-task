@@ -1,0 +1,51 @@
+.meal {
+  text-align: left;
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: left;
+  display: flex;
+}
+
+.ingredients {
+  text-align: left;
+  width: 50%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: left;
+}
+
+.counters {
+  display: flex;
+  width: 8rem;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  display: flex;
+  height: 3rem;
+  color: black;
+  list-style: none;
+  border-top: 1px solid black;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.total {
+  border-top:  2px solid black;
+  text-align: left;
+}
+
+@media only screen and (max-width: 768px) {
+  .meal {
+    display: block;
+  }
+  .ingredients {
+    width: 100%;
+    padding: 0;
+  }
+}

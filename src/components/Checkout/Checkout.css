@@ -1,0 +1,22 @@
+.checkout {
+  text-align: left;
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: left;
+  display: flex;
+}
+
+.order, .checkout-form {
+  text-align: left;
+  width: 50%;
+  margin: 0 auto;
+  text-align: left;
+  padding: 1rem;
+}
+
+
+.form-row {
+  display: flex;
+  padding: 0.2rem;
+  flex-direction: column;
+}
